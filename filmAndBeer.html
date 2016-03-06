@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel:900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                    <span class="brand-logo">
+                        <img src="http://slate-inc.org/wp-content/uploads/2015/12/SLATE_logo.png"/>
+                    </span>
+                    <span class="brand-name">
+                        Slate Inc
+                    </span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="donate.html">Donate</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li class="dropdown">
+                    <a href="membership.html" class="dropdown-toggle disabled menu" data-toggle="dropdown" role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">Membership<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action1</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Action2</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Action3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="col-md-10"><br>
+
+        <p class="filmBeerFont">
+            Slate Inc partners with The Guild an Arts Collective based in Redlands California and Masonic Lodge for this
+            quarterly event. This event provides local and first time film artists an opportunity to show their work.
+            This event will feature classic film screenings with talks to follow after the screening. Finally, it is a
+            celebration of another art form here in the Inland Empire, beer. Each event will spotlight a different local
+            brewery and food pairing.
+        </p>
+
+        <div class="filmBeerFont"><b>Event Schedule is as follows for 2016:</b></div>
+        <div class="filmBeerFont">(All screenings occur at the Masonic Lodge of Redlands, 131 Cajon St., Redlands CA,
+            92373)
+        </div>
+        <ul class="filmBeerFont ">
+            <li> August 10, 2016 7pm to 10pm</li>
+            <li>November 9, 2016 7pm to 10pm</li>
+        </ul>
+        <div class="filmBeerFont"><b>Submission Fee:</b></div>
+        <ul class="filmBeerFont ">
+            <li>$10 for non Slate Members</li>
+            <li>Free for Slate Members</li>
+        </ul>
+        <div class="filmBeerFont"><b>Admission Fee:</b></div>
+        <ul class="filmBeerFont ">
+            <li>$10 for non Slate Members</li>
+            <li>Free for Slate Members</li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <h3 class="page-header">Submit your film here:</h3>
+
+    <div class="col-md-10 jumbotron">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2 " for="filmname">Film Name:</label>
+
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="filmname" placeholder="Film name">
+                </div>
+                <label class="control-label col-sm-2 " for="date">Date:</label>
+
+                <div class="col-sm-4">
+                    <input type="date" class="form-control" id="date" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2 " for="email">Email:</label>
+
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <label class="control-label col-sm-2 " for="pwd">Phone number:</label>
+
+                <div class="col-sm-3">
+                    <input type="password" class="form-control" id="pwd" placeholder="Phone number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2 " for="address">Street :</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="address" placeholder="Street, APt,">
+                </div>
+                <label class="control-label col-sm-2 " for="city">City :</label>
+
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="city" placeholder="city">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2 " for="state">State :</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="state" placeholder="State">
+                </div>
+                <label class="control-label col-sm-2 " for="zipcode">Zipcode :</label>
+
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="medianame">Social Media Name(s) :</label>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="medianame" placeholder="Social Media Name(s)">
+                </div>
+             </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3 ">About Your Film or Media Project:</label>
+
+                <div class="col-sm-4 checkbox">
+                    <div><label><input type="checkbox" value="">Short film under 50 Minutes</label></div>
+                    <div><label><input type="checkbox" value="">Feature film over 50 minutes</label></div>
+                    <div><label><input type="checkbox" value="">Narrative</label></div>
+                    <div><label><input type="checkbox" value="">Documentary</label></div>
+                    <div><label><input type="checkbox" value="">Web series</label></div>
+                    <div><label><input type="checkbox" value="">Music Video</label></div>
+                    <div><label><input type="checkbox" value="">Experimental</label></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2 " for="runtime">Runtime :</label>
+
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="runtime" placeholder="Runtime">
+                </div>
+                <label class="control-label col-sm-2 " for="genre">Genre :</label>
+
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="genre" placeholder="Genre">
+                </div>
+                <label class="control-label col-sm-2 " for="synopsis">Synopsis :</label>
+
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="synopsis" placeholder="Synopsis">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3 ">How to get us your film:</label>
+
+                <div class="col-sm-4 checkbox">
+                    <div><label><input type="checkbox" value="">Dropbox at <a href="mailto:info@slate-inc.org">
+                        info@slate-inc.org</a></label></div>
+                    <div><label><input type="checkbox" value="">Mail: Slate Inc., PO Box 7232, Redlands CA, 92375</label></div>
+                    <div><label><input type="checkbox" value="">Non Member Fee $10</label></div>
+                    <div><label><input type="checkbox" value="">Member Fee $0</label></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-4 " for="conformemil">Enter your email address for confirmation:</label>
+
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="conformemil" placeholder="enter email here">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <p class="pull-left">© 2015 Slate, Inc.</p>
+
+    <div class="pull-right">
+        <ul class="icons">
+            <li><a href="http://facebook.com/"><i class="fa fa-facebook fa-2x"></i></a></li>
+            <li><a href="http://linkedin.com/"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="http://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="http://plus.google.com/"><i class="fa fa-youtube fa-2x"></i> </a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
